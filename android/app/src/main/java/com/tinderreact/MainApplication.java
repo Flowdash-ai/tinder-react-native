@@ -3,6 +3,7 @@ package com.tinderreact;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.flow.FlowdashNativePackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -24,6 +25,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new FlowdashNativePackage(getResources().getString(R.string.FlowdashAppId),getResources().getBoolean(R.bool.FlowdashIncludeEditor)),
             new RNGestureHandlerPackage()
       );
     }

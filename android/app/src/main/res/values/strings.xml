@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">tinderReact</string>
+    <string moduleConfig="true" name="FlowdashAppId">TinderClone-12345343</string>
+    <bool moduleConfig="true" name="FlowdashIncludeEditor">true</bool>
 </resources>

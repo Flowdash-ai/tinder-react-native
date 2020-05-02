@@ -7,6 +7,7 @@ import MatchesScreen from "./containers/Matches";
 import MessagesScreen from "./containers/Messages";
 import ProfileScreen from "./containers/Profile";
 import Icon from "./components/Icon";
+import Flowdash from 'react-native-flowdash';
 
 const App = createBottomTabNavigator(
 	{
@@ -20,7 +21,11 @@ const App = createBottomTabNavigator(
 							<Icon name="explore" />
 						</Text>
 					);
-				}
+				},
+				tabBarOnPress: (scene) => {
+					console.log('onPress:', scene.navigation.state.routeName);
+					Flowdash.replay(scene.navigation.state.routeName)
+				},
 			}
 		},
 		Matches: {
@@ -33,7 +38,11 @@ const App = createBottomTabNavigator(
 							<Icon name="heart" />
 						</Text>
 					);
-				}
+				},
+				tabBarOnPress: (scene) => {
+					console.log('onPress:', scene.navigation.state.routeName);
+					Flowdash.replay(scene.navigation.state.routeName)
+				},
 			}
 		},
 		Chat: {
@@ -46,7 +55,11 @@ const App = createBottomTabNavigator(
 							<Icon name="chat" />
 						</Text>
 					);
-				}
+				},
+				tabBarOnPress: (scene) => {
+					console.log('onPress:', scene.navigation.state.routeName);
+					Flowdash.replay(scene.navigation.state.routeName)
+				},
 			}
 		},
 		Profile: {
@@ -59,7 +72,11 @@ const App = createBottomTabNavigator(
 							<Icon name="user" />
 						</Text>
 					);
-				}
+				},
+				tabBarOnPress: (scene) => {
+					console.log('onPress:', scene.navigation.state.routeName);
+					Flowdash.replay(scene.navigation.state.routeName)
+				},
 			}
 		}
 	},
