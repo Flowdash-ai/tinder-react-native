@@ -15,7 +15,7 @@
 		"react": "16.8.0",
 		"react-native": "^0.61.5",
 		"react-native-card-stack-swiper": "^1.1.0",
-		"react-native-flowdash": "https://github.com/Flowdash-ai/react-native-flowdash.git#editor-mode",
+		"react-native-flowdash": "https://github.com/Flowdash-ai/react-native-flowdash.git#develop",
 		"react-native-gesture-handler": "^1.6.1",
 		"react-native-screens": "^2.7.0",
 		"react-navigation": "^3.0.9"

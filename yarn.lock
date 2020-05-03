@@ -5258,9 +5258,9 @@ react-native-card-stack-swiper@^1.1.0:
     prop-types "15.5.10"
     react-lifecycles-compat "^3.0.4"
 
-"react-native-flowdash@https://github.com/Flowdash-ai/react-native-flowdash.git#editor-mode":
+"react-native-flowdash@https://github.com/Flowdash-ai/react-native-flowdash.git#develop":
   version "1.0.0"
-  resolved "https://github.com/Flowdash-ai/react-native-flowdash.git#5315aa67548dcd83f605ae45a52bb4c860bd1981"
+  resolved "https://github.com/Flowdash-ai/react-native-flowdash.git#aa59f663dcc1dd1571b82edfdcf979ef37255fbd"
   dependencies:
     hoist-non-react-statics "^3.3.2"
     react-native-paper "^3.6.0"
