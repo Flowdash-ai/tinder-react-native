@@ -5260,11 +5260,10 @@ react-native-card-stack-swiper@^1.1.0:
 
 "react-native-flowdash@https://github.com/Flowdash-ai/react-native-flowdash.git#develop":
   version "1.0.0"
-  resolved "https://github.com/Flowdash-ai/react-native-flowdash.git#aa59f663dcc1dd1571b82edfdcf979ef37255fbd"
+  resolved "https://github.com/Flowdash-ai/react-native-flowdash.git#ee761242fb0029140c1dea7284f49cc0f9b4694c"
   dependencies:
     hoist-non-react-statics "^3.3.2"
     react-native-paper "^3.6.0"
-    react-native-vector-icons "^6.6.0"
 
 react-native-gesture-handler@^1.6.1:
   version "1.6.1"
