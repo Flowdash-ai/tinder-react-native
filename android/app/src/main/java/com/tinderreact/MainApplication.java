@@ -27,7 +27,7 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new VectorIconsPackage(),
-            new FlowdashNativePackage(getResources().getString(R.string.FlowdashAppId),getResources().getBoolean(R.bool.FlowdashIncludeEditor)),
+            new FlowdashNativePackage(getResources().getString(R.string.FlowdashAppId),getResources().getString(R.string.FlowdashAppKey),getResources().getBoolean(R.bool.FlowdashIncludeEditor)),
             new RNGestureHandlerPackage()
       );
     }
